@@ -1,0 +1,10 @@
+version: "3"
+services:
+ web:
+   image: "php:5.6-apache"
+   restart: always
+   volumes: 
+      - /home/willian/Documentos/No-Paladar-master:/var/www/html 
+   ports:
+       - "443:443"
+   
